@@ -1,0 +1,12 @@
+docker run hello-world
+docker run -it ubuntu bash
+mkdir /script-answers/
+cd script-answers
+touch exercise12_2.txt
+script exercise12_2.txt
+
+Script started on 2023-12-16 19:53:06+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+# mkdir /usr/src/app
+# cd /usr/src/app
+# touch index.js
+# exit
