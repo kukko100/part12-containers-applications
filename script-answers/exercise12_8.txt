@@ -1,0 +1,113 @@
+Script started on 2024-07-01 18:15:04+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="104" LINES="46"]
+[?2004h]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ sudo docker exec -it todo-mongo-backend-1[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ mongosh -u root [15P-p example[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [5Ppostman -v
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcurl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [3Psnap postman
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K help refresh[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C postmancurl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [8Ppostman
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -vmongosh -u root -p example[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ sudo docker exec -it todo-mongo-backend-1[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ mongosh -u root [15P-p example[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ sudo docker exec -it todo-mongo-backend-1[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker exec -it todo-mongo-backend-1 bash
+[?2004l[sudo] password for panda: 
+Error response from daemon: No such container: todo-mongo-backend-1
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug todo-mongo-backend-1[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [7msudo docker exe[27m[7mc[27m[7m -it todo-backend-mongo-1 bash[27m[A]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ sudo docker exec -it todo-backend-mongo-1 bash
+[?2004l[?2004hroot@f697b7cc17d3:/# exitmongosh -u root -p example
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6682c83799a298e1472202d7
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.5[0m
+Using MongoDB:		7.0.9
+[1m[33mUsing Mongosh[0m:		2.2.5
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2024-07-01T15:01:43.977+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-07-01T15:01:44.788+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never' in this binary version
+   2024-07-01T15:01:44.788+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7G[1G[0Jtest> exit[11G[1G[0Jtest> db.todos.find({})[24G[1G[0Jtest> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[75G[1G[0Jtest> db.todos.find({})[24G[1G[0Jtest> show collections[23G[1G[0Jtest> use the_database[23G[1G[0Jtest> show dbs[15G[1G[0Jtest> exit[11G[1G[0Jtest> Flags[12G[1G[0Jtest> show collections[23G[1G[0Jtest> use the_database[23G[1G[0Jtest> user; root[17G[1G[0Jtest> user; roo[16G[1G[0Jtest> user; ro[15G[1G[0Jtest> user; r[14G[1G[0Jtest> user; [13G[1G[0Jtest> user;[12G[1G[0Jtest> user[11G[1G[0Jtest> use[10G[1G[0Jtest> us[9G[1G[0Jtest> u[8G[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m        108.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   72.00 KiB
+[1G[0Jtest> [7Guse the da[1G[0Jtest> use the d[16G[1G[0Jtest> use the [15G[1G[0Jtest> use the[14G[1G[0Jtest> use th[13G[1G[0Jtest> use t[12Ghe_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.d[1G[0Jthe_database> db.[18Gtodos.find({][1G[0Jthe_database> db.todos.find({[30G})
+[
+  {
+    _id: ObjectId([32m'6682aaa2ecbe71864b2202d8'[39m),
+    text: [32m'Write code has been edited 1'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6682aaa2ecbe71864b2202d9'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  { _id: ObjectId([32m'6682bfe72c7c3d62e79f2f51'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  { _id: ObjectId([32m'6682bffe2c7c3d62e79f2f54'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  { _id: ObjectId([32m'6682c01e2c7c3d62e79f2f57'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  {
+    _id: ObjectId([32m'6682c0bd28a17a7b93c7adf4'[39m),
+    text: [32m'New todo postman has been edited 1'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6682c6f651651552fe2202d8'[39m),
+    text: [32m'testing insertOne'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> use the_database[31G[1G[0Jthe_database> show dbs[23G[1G[0Jthe_database> exit[19G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[83G[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[82G[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[81G[1D[1G[0Jthe_database> db.todos.insertOne( [44m{[49m [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[80G[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[79G[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [44m[32m"[49mdone"[39m: [33mfalse[39m } )[71G[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[70G[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done[44m"[39m[49m: [33mfalse[39m } )[66G[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"testing insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[65G[1D[1D[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting insertOne"[39m, [32m"done"[39m: [33mfalse[39m } )[63G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting insertOn"[39m, [32m"done"[39m: [33mfalse[39m } )[62G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting insertO"[39m, [32m"done"[39m: [33mfalse[39m } )[61G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting insert"[39m, [32m"done"[39m: [33mfalse[39m } )[60G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting inser"[39m, [32m"done"[39m: [33mfalse[39m } )[59G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting inse"[39m, [32m"done"[39m: [33mfalse[39m } )[58G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting ins"[39m, [32m"done"[39m: [33mfalse[39m } )[57G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting in"[39m, [32m"done"[39m: [33mfalse[39m } )[56G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting i"[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting "[39m, [32m"done"[39m: [33mfalse[39m } )[54G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesting"[39m, [32m"done"[39m: [33mfalse[39m } )[53G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtestin"[39m, [32m"done"[39m: [33mfalse[39m } )[52G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtesti"[39m, [32m"done"[39m: [33mfalse[39m } )[51G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtest"[39m, [32m"done"[39m: [33mfalse[39m } )[50G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mtes"[39m, [32m"done"[39m: [33mfalse[39m } )[49G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mte"[39m, [32m"done"[39m: [33mfalse[39m } )[48G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mt"[39m, [32m"done"[39m: [33mfalse[39m } )[47G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49m"[39m, [32m"done"[39m: [33mfalse[39m } )[46G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49me"[39m, [32m"done"[39m: [33mfalse[39m } )[47G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mex"[39m, [32m"done"[39m: [33mfalse[39m } )[48G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexe"[39m, [32m"done"[39m: [33mfalse[39m } )[49G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexer"[39m, [32m"done"[39m: [33mfalse[39m } )[50G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexerc"[39m, [32m"done"[39m: [33mfalse[39m } )[51G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexerci"[39m, [32m"done"[39m: [33mfalse[39m } )[52G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercis"[39m, [32m"done"[39m: [33mfalse[39m } )[53G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise"[39m, [32m"done"[39m: [33mfalse[39m } )[54G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise "[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise 8"[39m, [32m"done"[39m: [33mfalse[39m } )[56G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise "[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise"[39m, [32m"done"[39m: [33mfalse[39m } )[54G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise1"[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise12"[39m, [32m"done"[39m: [33mfalse[39m } )[56G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise1"[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise"[39m, [32m"done"[39m: [33mfalse[39m } )[54G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_"[39m, [32m"done"[39m: [33mfalse[39m } )[55G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_1"[39m, [32m"done"[39m: [33mfalse[39m } )[56G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12"[39m, [32m"done"[39m: [33mfalse[39m } )[57G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_"[39m, [32m"done"[39m: [33mfalse[39m } )[58G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8"[39m, [32m"done"[39m: [33mfalse[39m } )[59G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8 "[39m, [32m"done"[39m: [33mfalse[39m } )[60G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8 d"[39m, [32m"done"[39m: [33mfalse[39m } )[61G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8 do"[39m, [32m"done"[39m: [33mfalse[39m } )[62G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8 don"[39m, [32m"done"[39m: [33mfalse[39m } )[63G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [44m[32m"[49mexercise_12_8 done"[39m, [32m"done"[39m: [33mfalse[39m } )[64G[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [33mfalse[39m } )[65G[1C[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done[44m"[39m[49m: [33mfalse[39m } )[67G[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [33mfalse[39m } )[68G[1C[1C[1C[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [44m[32m"[49mdone"[39m: [33mfalse[39m } )[72G[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [33mfalse[39m } )[73G[1C[1C[1C[1C[1C[1C[1C[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: fals } )[79G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: fal } )[78G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: fa } )[77G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: f } )[76G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m:  } )[75G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: d } )[76G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [36mdo[39m } )[77G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: don } )[78G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: done } )[79G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: don } )[78G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [36mdo[39m } )[77G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: d } )[76G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m:  } )[75G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: t } )[76G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: tr } )[77G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: tru } )[78G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [33mtrue[39m } )[79G[4C
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6682c89b99a298e1472202d8'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne( { [32m"text"[39m: [32m"exercise_12_8 done"[39m, [32m"done"[39m: [33mtrue[39m } )[83G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'6682aaa2ecbe71864b2202d8'[39m),
+    text: [32m'Write code has been edited 1'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6682aaa2ecbe71864b2202d9'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  { _id: ObjectId([32m'6682bfe72c7c3d62e79f2f51'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  { _id: ObjectId([32m'6682bffe2c7c3d62e79f2f54'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  { _id: ObjectId([32m'6682c01e2c7c3d62e79f2f57'[39m), done: [33mfalse[39m, __v: [33m0[39m },
+  {
+    _id: ObjectId([32m'6682c0bd28a17a7b93c7adf4'[39m),
+    text: [32m'New todo postman has been edited 1'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6682c6f651651552fe2202d8'[39m),
+    text: [32m'testing insertOne'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6682c89b99a298e1472202d8'[39m),
+    text: [32m'exercise_12_8 done'[39m,
+    done: [33mtrue[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@f697b7cc17d3:/# exit
+[?2004lexit
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug todo-backend-mongo-1[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;panda@panDebian: ~/Documents/fullStack2023/part12-containers-applications/script-answers[01;32mpanda@panDebian[00m:[01;34m~/Documents/fullStack2023/part12-containers-applications/script-answers[00m$ [?2004l
+exit
+
+Script done on 2024-07-01 18:18:06+03:00 [COMMAND_EXIT_CODE="0"]
